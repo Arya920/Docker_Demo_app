@@ -29,13 +29,13 @@ This creates an image named motivation-app.
 
 2️⃣ What to Put in requirements.txt
 
-Your requirements.txt should list all the Python packages your app needs. For a basic Streamlit app with ML models, it might look like:
+Your `requirements.txt` should list all the Python packages your app needs. For a basic Streamlit app with ML models, it might look like:
 
-streamlit
-pandas
-numpy
-joblib
-scikit-learn
+- streamlit
+- pandas
+- numpy
+- joblib
+- scikit-learn
 
 Use the below code to auto-generate requirement file from your environment.
 ```bash
@@ -80,11 +80,9 @@ docker build -t motivation-app .
 
 This command:
 
-    - Reads the Dockerfile
-
-    - Packages everything in the folder
-
-    - Tags it as motivation-app
+1. Reads the Dockerfile
+2. Packages everything in the folder
+3. Tags it as motivation-app
 
 5️⃣ How to Run the App in Docker
 
